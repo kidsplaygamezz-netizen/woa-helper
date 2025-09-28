@@ -84,7 +84,7 @@ class MainActivity : AppCompatActivity() {
             } catch (_: IOException) {
             }
         }
-        arrayOf("mount.ntfs", "libfuse-lite.so", "libntfs-3g.so").forEach { rootCommand("chmod 777 $filesDir/$it") }
+        arrayOf("mount.ntfs", "libfuse.so", "libntfs-3g.so").forEach { rootCommand("chmod 777 $filesDir/$it") }
     }
 
     @SuppressLint("UseCompatLoadingForDrawables", "SetTextI18n")
