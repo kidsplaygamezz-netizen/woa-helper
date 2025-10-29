@@ -68,3 +68,4 @@ This project is in late stages of development. Most features have already been a
 - rivas for the Persian translation (rivas is not allowed)
 - Hiroshi Takaoka for the Japanese translation
 - [Misha_803](https://github.com/Misha-803) for testing the app
+
